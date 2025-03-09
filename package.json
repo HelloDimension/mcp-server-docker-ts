@@ -1,0 +1,37 @@
+{
+  "name": "mcp-server-docker-ts",
+  "version": "1.0.0",
+  "description": "TypeScript version of MCP server Docker with remote connection support",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "mcp",
+    "docker",
+    "typescript",
+    "remote"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/mcp-server": "^1.0.0",
+    "dockerode": "^3.3.5",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.1",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/dockerode": "^3.3.19",
+    "@types/fs-extra": "^11.0.1",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
