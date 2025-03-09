@@ -1,0 +1,8 @@
+node_modules/
+dist/
+coverage/
+.env
+config/certs/
+config/ssh/
+*.log
+.DS_Store
